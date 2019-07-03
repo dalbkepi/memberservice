@@ -1,5 +1,8 @@
 # Memberservice #
 
+Coding challenge for job interview with adviqo in 2016
+
+
 ## Api ##
 
 ### create a new member ###
