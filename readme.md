@@ -1,4 +1,5 @@
 # Memberservice #
+[![Java CI](https://github.com/dalbkepi/memberservice/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/dalbkepi/memberservice/actions/workflows/ci.yaml)
 
 Coding challenge for job interview with adviqo in 2016
 
@@ -7,7 +8,7 @@ Coding challenge for job interview with adviqo in 2016
 
 ### create a new member ###
 
-```java
+```
 
 POST /members
 {
@@ -23,7 +24,7 @@ Response: 201
 
 ### read an existing member ###
 
-```java
+```
 
 GET /members/{memberId}
 {
@@ -42,7 +43,7 @@ Response: 200, 404
 
 PUT /members/{memberId}
 
-```java
+```
 
 {
 	String firstName;
@@ -64,7 +65,7 @@ Response: 200, 404
 
 GET /members
 
-```java
+```
 
 [
 	{
